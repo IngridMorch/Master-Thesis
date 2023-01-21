@@ -1,5 +1,13 @@
 # Master-Thesis
-Additions to the thesis
+
+## Python scripts "Simulation.py" and "Oneway_Charging_1.py":
+
+These two Python scripts together comprise the smart charging program developed through my master's thesis, "Power Peak Shaving: How to Schedule Charging of Electric Vehicles and Organize Mutually Beneficial Vehicle to Grid (V2G)", which is a contribution to the research project NeX2G, an NMBU-led project in collaboration with Avinor AS, Statnett SF, OsloMet university, Elvia AS and Lnett AS.
+
+The "Oneway_Charging_1.py" script is imported by the "Simulation.py" script. When "Simulation.py" is run, it yields a charging schedule as a png image for all the EVs in an EV pool. The input parameters in the code can be changed at will to explore different scenarios. This is further explained in comments in the code.
+
+
+## Excel file:
 
 This Excel file shows the calculations behind the assertion that an EV would typically need to sell between three and four discharging cycles
 in order to fully cover it's charging cost. Below are some explanations for the numbers used.
